@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guessing Number Game</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="main">
+      <section class="heading">
+        <h1 class="heading-1">GUESS THE NUMBER</h1>
+        <h4 class="heading-4">(Between 1 to 20)</h4>
+      </section>
+
+      <section class="sub-heading">
+        <h5 class="description">
+          Guess the Number to make the background Colorful
+        </h5>
+        <button class="btn-reset">TRY AGAIN</button>
+      </section>
+
+      <div class="guess">?</div>
+
+      <section class="grid-template-2">
+        <div class="left-grid">
+          <p class="enter-number">Enter the number</p>
+          <input type="number" class="input" />
+          <button class="btn check">Check the number!</button>
+        </div>
+        <div class="right-grid">
+          <p class="message">Start Guessing</p>
+          <p class="p-lives">lives: <span class="lives">5</span></p>
+          <p class="p-highscore">Highscore: <span class="highscore">0</span></p>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
